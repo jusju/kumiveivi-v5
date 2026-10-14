@@ -1,0 +1,46 @@
+{
+  "gear_mesh_2d_dynamic_check": [
+    {
+      "pair": "30T_to_12T",
+      "center_mm": 27.20032271867376,
+      "max_overlap_area_mm2": 0.0,
+      "minimum_profile_gap_mm": 0.09594500380883263,
+      "maximum_profile_gap_mm": 0.09782365014227104,
+      "passes_no_intersection": true
+    },
+    {
+      "pair": "32T_to_12T",
+      "center_mm": 28.47976295547419,
+      "max_overlap_area_mm2": 0.0,
+      "minimum_profile_gap_mm": 0.09619366244163446,
+      "maximum_profile_gap_mm": 0.09772370689414395,
+      "passes_no_intersection": true
+    },
+    {
+      "pair": "36T_to_12T",
+      "center_mm": 31.040338480757583,
+      "max_overlap_area_mm2": 0.0,
+      "minimum_profile_gap_mm": 0.07384753931804645,
+      "maximum_profile_gap_mm": 0.07624639457146103,
+      "passes_no_intersection": true
+    }
+  ],
+  "mesh_integrity_checks": {
+    "03_compound_12T_32T_m1p28_bore5_deep_teeth": {
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1
+    },
+    "04_compound_12T_36T_m1p28_bore5_deep_teeth": {
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1
+    }
+  },
+  "step_shapes_valid": true,
+  "32T_upper_surface_flat_at_z_mm": 16.8,
+  "test_only_requested_enlargement_mm": 8.0,
+  "test_only_mechanically_compatible": false,
+  "functional_compound_gear_ratio_unchanged": true,
+  "original_BOM_and_frame_preserved": true
+}

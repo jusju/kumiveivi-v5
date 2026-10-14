@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python -)",
+      "Bash(timeout 600 .venv/bin/python kumiveivi_v5.py)"
+    ]
+  }
+}

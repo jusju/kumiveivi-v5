@@ -1,0 +1,118 @@
+{
+  "scale_factor": 1.6,
+  "total_ratio": 20.0,
+  "gear_pairs": [
+    [
+      30,
+      12
+    ],
+    [
+      32,
+      12
+    ],
+    [
+      36,
+      12
+    ]
+  ],
+  "module_mm": 1.2800000000000002,
+  "pressure_angle_deg": 20.0,
+  "addendum_coeff_m": 1.15,
+  "dedendum_coeff_m": 1.35,
+  "backlash_mm": 0.2,
+  "gear_width_mm": 6.4,
+  "all_shaft_axle_holes_mm": 5.0,
+  "center_extra_clearance_mm": 0.32000000000000006,
+  "housing_outer_mm": [
+    111.5,
+    84.5,
+    38.400000000000006
+  ],
+  "housing_inner_width_mm": 28.8,
+  "sidewall_thickness_mm": 4.800000000000001,
+  "extra_gear_to_wall_margin_added_mm": 2.0,
+  "effective_gear_to_wall_clearance_mm": 4.4,
+  "shaft_center_xy_mm": [
+    [
+      25.072,
+      29.872
+    ],
+    [
+      52.242,
+      31.156
+    ],
+    [
+      37.559,
+      55.559
+    ],
+    [
+      65.056,
+      69.961
+    ]
+  ],
+  "layout_angles_deg": [
+    2.705231,
+    121.033305,
+    27.642962
+  ],
+  "printed_center_distances_mm": [
+    27.2,
+    28.48,
+    31.04
+  ],
+  "gear_planes_z_mm": {
+    "A": [
+      5.6000000000000005,
+      12.0
+    ],
+    "B": [
+      16.0,
+      22.400000000000002
+    ],
+    "C": [
+      26.400000000000002,
+      32.800000000000004
+    ]
+  },
+  "counter_bay_starts_x_mm": 78.608,
+  "counter_bay_width_mm": 32.5,
+  "crank_arm_mm": [
+    128.0,
+    24.0,
+    8.0
+  ],
+  "crank_hole_diameter_mm": 5.0,
+  "grip_sleeve_length_mm": 32.0,
+  "grip_sleeve_ID_mm": 5.0,
+  "grip_sleeve_OD_mm": 13.600000000000001,
+  "v4_modifications": {
+    "primary_functional_pinions": {
+      "teeth": 12,
+      "module_mm": 1.28,
+      "addendum_coeff": 0.95,
+      "backlash_mm": 0.1,
+      "outside_diameter_mm": 17.792,
+      "original_outside_diameter_mm": 18.304,
+      "original_tooth_tip_width_mm": 0.279,
+      "new_tooth_tip_width_mm_approx": 0.764
+    },
+    "compound_32T_large_gear": {
+      "addendum_coeff": 1.0,
+      "outside_diameter_mm": 43.52,
+      "top_face_z_mm_in_local_part": 16.8,
+      "face_geometry": "entire planar upper face, reconstructed as complete extrusion"
+    },
+    "user_literal_plus8mm_test_only": {
+      "outside_diameter_mm": 26.304,
+      "mechanically_compatible": false,
+      "folder": "TEST_ONLY_plus8mm_OD_NOT_FUNCTIONAL"
+    },
+    "gear_mesh_angular_phases_deg": {
+      "3": 23.205230586,
+      "4": 127.533304681,
+      "5": 34.142961887
+    },
+    "unchanged_shaft_centers": true,
+    "unchanged_ratio": 20.0
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "Kumiveivi_v4_vaihteisto.step",
+    "unchanged_from_source": "09_gearbox_assembly_without_fasteners.step",
+    "sha256": "72b6f0b5b57e8683fa3437486b51b525d65b9150b3bb15208eccfece616406e7",
+    "step_solid_entities": 5,
+    "physical_test": false
+  },
+  {
+    "file": "Kumiveivi_v4_elektroniikan_tilavaraukset.step",
+    "unchanged_from_source": "11_assembly_with_electronics_fit_reference.step",
+    "sha256": "bd7b4001cd12a52d3e27772a234e154db19d432e43c904626a7031bb54390efb",
+    "step_solid_entities": 9,
+    "physical_test": false
+  }
+]
